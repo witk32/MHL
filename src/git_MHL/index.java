@@ -18,8 +18,7 @@ public class index {
 			String co="";
 			id=bf.readLine();
 			co=bf.readLine();
-			System.out.println("id:"+id+",code:"+co);
-			
+
 		} catch (Exception e1) {
 			e1.printStackTrace();
 	}
