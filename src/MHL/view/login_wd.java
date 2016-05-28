@@ -53,7 +53,7 @@ public class login_wd extends JDialog implements ActionListener{
 		int w=Toolkit.getDefaultToolkit().getScreenSize().width;
 		int h=Toolkit.getDefaultToolkit().getScreenSize().height;
 		this.setLocation((w-354)/2, (h-543)/2);
-		//this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		getContentPane().setLayout(null);
 		
 		JButton button = new JButton("确认");
@@ -119,7 +119,8 @@ class JP_login1 extends JPanel
 	public void paint(Graphics g)
 	{
 		
-		//添加logo
+		//背景图片
+		
 		try {
 			im=ImageIO.read(new File("image/login_index/new_login.png"));
 			g.drawImage(im,0,0,354,543,this);

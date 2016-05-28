@@ -37,7 +37,7 @@ public class login_index extends JWindow implements Runnable{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		login l=new login();
+		login_wd l=new login_wd();
 		l.setVisible(true);
 		this.dispose();
 		
