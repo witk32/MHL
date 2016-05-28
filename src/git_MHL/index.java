@@ -8,6 +8,7 @@ import java.io.IOException;
 public class index {
 	static FileReader fr=null;
 	static BufferedReader bf=null;
+	String a="";
 
 	public static void main(String[] args) {
 		try {
